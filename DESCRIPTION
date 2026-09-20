@@ -1,9 +1,14 @@
 Package: streamStats
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Memory-Efficient Online Statistical Accumulator via Rcpp
+Version: 1.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person(Taruna Dagur , tardagur@gmail.com, role = c("aut", "cre"))
+Description: Implements a high-performance, object-oriented streaming data 
+    accumulator using Welford's algorithm and Algorithm R reservoir sampling. 
+    The package computes running statistical metrics—including mean, variance, 
+    standard deviation, minimum, maximum, and tracking samples—incrementally 
+    without storing historical points in memory, providing bulletproof 
+    numerical stability against catastrophic cancellation.
 License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8

@@ -25,9 +25,9 @@ The `StreamAccumulator` class was tested along four dimensions:
   R re-implementation, run interactively to build confidence and
   produce report evidence (see Section 3 for the numerical stability
   result).
-- **Formal `testthat` suite** (`tests/testthat/test-StreamAccumulator.R`):
+- - **Formal `testthat` suite** (`tests/testthat/test-StreamAccumulator.R`):
   14 automated test cases using `expect_equal()`, `expect_true()`,
-  `expect_error()`, and `expect_s3_class()`, runnable via `devtools::test()`
+  `expect_error()`, and `expect_s4_class()`, runnable via `devtools::test()`
   and re-run automatically by `R CMD check`.
 
 ## 3. Key Results
